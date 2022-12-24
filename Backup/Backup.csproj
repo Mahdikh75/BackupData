@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>Backup.App</StartupObject>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Ai.png" />
+    <None Remove="Resources\Backup.png" />
+    <None Remove="Resources\Cancel.png" />
+    <None Remove="Resources\CodeFolder.png" />
+    <None Remove="Resources\Delete.png" />
+    <None Remove="Resources\DocumentsFolder.png" />
+    <None Remove="Resources\Folder.png" />
+    <None Remove="Resources\In.png" />
+    <None Remove="Resources\Mind.png" />
+    <None Remove="Resources\MoviesFolder.png" />
+    <None Remove="Resources\MusicFolder.png" />
+    <None Remove="Resources\Ok.png" />
+    <None Remove="Resources\Path.png" />
+    <None Remove="Resources\PicturesFolder.png" />
+    <None Remove="Resources\Save.png" />
+    <None Remove="Resources\Select.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FolderBrowserEx" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Ai.png" />
+    <Resource Include="Resources\Backup.png" />
+    <Resource Include="Resources\Cancel.png" />
+    <Resource Include="Resources\CodeFolder.png" />
+    <Resource Include="Resources\Delete.png" />
+    <Resource Include="Resources\DocumentsFolder.png" />
+    <Resource Include="Resources\Folder.png" />
+    <Resource Include="Resources\In.png" />
+    <Resource Include="Resources\Mind.png" />
+    <Resource Include="Resources\MoviesFolder.png" />
+    <Resource Include="Resources\MusicFolder.png" />
+    <Resource Include="Resources\Ok.png" />
+    <Resource Include="Resources\Path.png" />
+    <Resource Include="Resources\PicturesFolder.png" />
+    <Resource Include="Resources\Save.png" />
+    <Resource Include="Resources\Select.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Localization\Texts.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Texts.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Localization\Texts.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Texts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
