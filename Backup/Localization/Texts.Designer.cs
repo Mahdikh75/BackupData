@@ -61,7 +61,7 @@ namespace Backup.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to App Windows Backup as dataes (WPF .NET) - Developer Mahdi Khayamdar.
+        ///   Looks up a localized string similar to App Windows Backup as dataes (WPF .NET) , Developer Mahdi Khayamdar.
         /// </summary>
         public static string About {
             get {
@@ -70,7 +70,7 @@ namespace Backup.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1- Select Source Data 2- Select Path Backup 3- Choose Backup &amp; Backup Ai .
+        ///   Looks up a localized string similar to 1-Select Source Data   2-Select Path Backup   3-Choose Backup &amp; Backup Ai .
         /// </summary>
         public static string Education {
             get {

@@ -29,10 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Icon.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="FolderBrowserEx" Version="1.0.1" />
   </ItemGroup>
 
